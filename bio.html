@@ -2,24 +2,55 @@
 <html>
 <head>
 	<title>Student Bio</title>
+	<style>
+		.floatLeft {
+			float: left;
+		}
+		h2.special {
+			text-decoration: underline;
+		}
+		li.special {
+			font-weight: bold;
+			font-style: italic;
+		}
+
+		.floatRight {
+			float: right;
+		}
+
+		#head {
+			background-color: tomato;
+			color: white;
+			padding: 10px;
+		}
+
+		.grey {
+			background-color: grey;
+		}
+	</style>
 </head>
 <body>
 
 
 
-<h1>Student Bio</h1>
+<h1 id=head>Student Bio</h1>
 
-<h2>Kevin Liao</h2>
+<div class=grey>
+<h2 class=special>Kevin Liao</h2>
 
-<img src="https://www.lipsum.com/images/banners/black_234x60.gif">
+<img class=floatLeft src="https://www.lipsum.com/images/banners/black_234x60.gif">
  
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
+<div class=floatRight>
 <h1>Contact info</h1>
 <ul>
-	<li><strong>email:<a href="mailto:kevinzliao@gmail.com">kevinzliao@gmail.com</a></strong></li>
+	<li class><strong>email:<a href="mailto:kevinzliao@gmail.com">kevinzliao@gmail.com</a></strong></li>
 	<li><strong>github:<a href="https://github.com/kevinzliao/">https://github.com/kevinzliao/</a></strong></li>
 </ul>
+</div>
+
+</div>
 
 </body>
 </html>
